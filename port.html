@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manoj Kumar · Portfolio</title>
+  <meta name="description" content="Personal portfolio website of Manoj Kumar — full-stack web developer.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="#home" aria-label="Manoj Kumar home">
+        <span class="brand-mark" aria-hidden="true">MK</span>
+        <span class="brand-text">Manoj Kumar</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home" aria-current="page">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="site-main">
+    <!-- HERO -->
+    <section id="home" class="section hero" role="region" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 id="hero-title">Hi, I’m Manojkumar — a Full-Stack Web Developer.</h1>
+          <p class="lead">
+            I build clean, accessible, and responsive web experiences. I’m currently exploring AI + UX to craft user-first products.
+          </p>
+          <div class="hero-cta">
+            
+            <a class="btn btn-ghost" href="#resume">View resume</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <img src="profile.jpg" alt="Portrait of Manoj Kumar"/>
+          <figcaption>Based in India · Open to opportunities</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section" role="region" aria-labelledby="resume-title">
+      <div class="container">
+        <h2 id="resume-title" class="section-title">Resume</h2>
+
+        <div class="resume-grid">
+          <article class="resume-card">
+            <h3>Education</h3>
+            <ul class="timeline">
+              <li>
+                <div>
+                  <strong>B.Tech — Computer Science</strong><br />
+                  kalasalingam university (2023–2027)
+                </div>
+              </li>
+              <li>
+                <div>
+                  <strong>Capstone Project 1:</strong>
+                  <a href="#" rel="noopener">Facial Emotion Recognition with AI Feedback</a>
+                </div>
+              </li>
+            </ul>
+          </article>
+
+         
+
+          <article class="resume-card">
+            <h3>Skills</h3>
+            <ul class="tags" aria-label="Skills">
+              <li>HTML5</li><li>CSS3 (Flex/Grid)</li><li>Responsive Design</li>
+              <li>Accessibility (WCAG)</li><li>Git & GitHub</li><li>Python</li>
+              <li>java</li><li>SQL</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- ABOUT -->
+    <section id="about" class="section alt" role="region" aria-labelledby="about-title">
+      <div class="container narrow">
+        <h2 id="about-title" class="section-title">About Me</h2>
+        <p>
+          I’m a developer who loves building fast, accessible interfaces. Outside coding, I enjoy UI/UX design,
+          reading about AI, and contributing to open-source. I care about inclusive design and maintainable CSS.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section" role="region" aria-labelledby="contact-title">
+      <div class="container narrow">
+        <h2 id="contact-title" class="section-title">Contact</h2>
+        <p>Want to collaborate or just say hi? I’d love to hear from you.</p>
+        <ul class="contact-list">
+          <li><a class="btn btn-primary" href="mailto:manojrt6kumar@gmail.com">Email Me</a></li>
+          <li><a class="link" href="https://github.com/manoj14666" rel="noopener">GitHub</a></li>
+          <li><a class="link" href="https://www.linkedin.com/in/n-manoj-kumar-41289832a" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-wrap">
+      <p>© <span id="year">2025</span> Manoj Kumar. All rights reserved.</p>
+      <a class="link" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
